@@ -1,11 +1,12 @@
 # DOM-renderer
 
-Simple example of how DOM can be created from pattern (or json file)
+Simple example of how DOM can be created from pattern
 
 ```javascript
 
     // This data could be sent from the server, or it can be your local configuration
-    // The idea is that you can set any data, but the structure must be the same and your page will be generated
+    // The idea is that you can set any data, but the structure must be the same (pattern)
+    // and your page will be generated
 
 [{
     type: "div",
