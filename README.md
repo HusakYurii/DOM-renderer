@@ -35,7 +35,7 @@ document.body.append(...htmlTree);
 
 ```
 
-The example above will generate an html tree, like this (ckeck [online](https://husakyurii.github.io/DOM-renderer/dist.) )
+The example above will generate an html tree, like this (ckeck [online](https://husakyurii.github.io/DOM-renderer/dist/) )
 
 ```html
 
