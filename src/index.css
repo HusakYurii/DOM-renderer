@@ -1,0 +1,53 @@
+/*
+Of coerce you have to have styles already made for your html tree
+
+*/
+.wrapper {
+  max-width: 60%;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  color: rgb(0,0,0);
+  font-size: 35px;
+}
+
+p {
+  color: rgb(0,0,0);
+  font-size: 25px;
+}
+
+form {
+  display: flexbox;
+  display: box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  color: #fff;
+}
+input[type="text"],
+textarea, input[type="submit"] {
+  background-color: rgba(255, 112, 112, 0.4);
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 5px 0 10px 0;
+  padding: 12px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  outline: none;
+  -webkit-transition: background-color 0.7s;
+  -o-transition: background-color 0.7s;
+  transition: background-color 0.7s;
+}
+input[type="submit"] {
+    width: 40%;
+}
+input[type="text"]:hover,textarea:hover, 
+input[type="submit"]:hover {
+  background-color: rgba(255, 112, 112, 0.2);
+}
