@@ -3,6 +3,7 @@
 Simple example of how DOM can be created from pattern
 
 ```javascript
+import Render from "./Render.js";
 
     // This data could be sent from the server, or it can be your local configuration
     // The idea is that you can set any data, but the structure must be the same (pattern)
@@ -29,7 +30,7 @@ Simple example of how DOM can be created from pattern
     }]
 }]
 
-const htmlTree = render(template);
+const htmlTree = Render.render(template);
 document.body.append(...htmlTree);
 
 ```
